@@ -6,7 +6,7 @@ date: "2024-09-10"
 
 ctrl + option + i -->chunck of code
 ```{r}
-#install.packages("car")
+#install.packages("car") Always add as a comment before knitting
 library(car)
 data <-- mtcars
 plot(mtcars$disp)
